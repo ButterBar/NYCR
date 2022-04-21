@@ -731,18 +731,11 @@
   width: 506px;
   min-height: 284px;
   background-image: url("images/rat_saks.png");
-  height: auto;
   margin: -160px 0 26px auto;
 }
 
 .u-section-8 .u-container-layout-1 {
   padding: 0;
-}
-
-@media (max-width: 1199px) {
-  .u-section-8 .u-image-1 {
-    height: auto;
-  }
 }
 
 @media (max-width: 767px) {
@@ -760,7 +753,7 @@
     margin-top: -78px;
   }
 } .u-section-9 {
-  background-image: url("images/stroke_div-up_01-27.png");
+  background-image: url("images/stroke_div-up_01-26.png");
   min-height: 144px;
   background-position: 50% 50%;
 }
@@ -1130,7 +1123,7 @@
     width: auto;
   }
 } .u-section-11 {
-  background-image: url("images/stroke_div-down_01-26.png");
+  background-image: url("images/stroke_div-down_01-27.png");
   min-height: 144px;
   background-position: 50% 50%;
 }
