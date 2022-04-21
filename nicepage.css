@@ -37118,19 +37118,29 @@ a.u-link.u-text-hover-grey-90:hover {
     transform: rotate(0deg) scale(1) translateX(0px) translateY(0px) !important
 } 
 
+ .u-footer {
+  min-height: 558px;
+}
+
 .u-footer .u-sheet-1 {
-  min-height: 230px;
+  min-height: 236px;
 }
 
 .u-footer .u-image-1 {
   width: 156px;
   height: 81px;
-  margin: 34px auto 0;
+  margin: 40px auto 0 492px;
 }
 
 .u-footer .u-logo-image-1 {
   width: 100%;
   height: 100%;
+}
+
+.u-footer .u-image-2 {
+  width: 340px;
+  height: 193px;
+  margin: -77px auto 0 87px;
 }
 
 .u-footer .u-social-icons-1 {
@@ -37139,7 +37149,7 @@ a.u-link.u-text-hover-grey-90:hover {
   width: 89px;
   min-width: 68px;
   white-space: nowrap;
-  margin: 19px auto 0;
+  margin: -96px auto 0 526px;
 }
 
 .u-footer .u-icon-1 {
@@ -37156,7 +37166,7 @@ a.u-link.u-text-hover-grey-90:hover {
 
 .u-footer .u-text-1 {
   font-size: 0.75rem;
-  margin: 16px auto 38px;
+  margin: 16px auto 38px 505px;
 }
 
 .u-footer .u-btn-1 {
@@ -37164,6 +37174,17 @@ a.u-link.u-text-hover-grey-90:hover {
   padding: 0;
 }
 @media (max-width: 1199px) {
+  .u-footer .u-image-1 {
+    margin-left: 406px;
+  }
+
+  .u-footer .u-image-2 {
+    width: 340px;
+    height: 193px;
+    margin-top: -77px;
+    margin-left: 87px;
+  }
+
   .u-footer .u-icon-1 {
     color: rgb(85, 172, 238) !important;
   }
@@ -37175,10 +37196,42 @@ a.u-link.u-text-hover-grey-90:hover {
   .u-footer .u-icon-3 {
     color: rgb(0, 122, 185) !important;
   }
+
+  .u-footer .u-text-1 {
+    margin-left: 416px;
+  }
 }
+@media (max-width: 991px) {
+  .u-footer .u-image-1 {
+    margin-left: 311px;
+  }
 
+  .u-footer .u-text-1 {
+    margin-left: 319px;
+  }
+}
+@media (max-width: 767px) {
+  .u-footer .u-image-1 {
+    margin-left: 233px;
+  }
 
+  .u-footer .u-text-1 {
+    margin-left: 239px;
+  }
+}
+@media (max-width: 575px) {
+  .u-footer .u-image-1 {
+    margin-left: 147px;
+  }
 
+  .u-footer .u-image-2 {
+    margin-left: 0;
+  }
+
+  .u-footer .u-text-1 {
+    margin-left: 150px;
+  }
+}
 
  /*begin-variables base-font-size*/ 
  html { font-size: 16px; }

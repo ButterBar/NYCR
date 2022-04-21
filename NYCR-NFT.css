@@ -728,14 +728,21 @@
 }
 
 .u-section-8 .u-image-1 {
-  width: 362px;
+  width: 506px;
   min-height: 284px;
   background-image: url("images/rat_saks.png");
+  height: auto;
   margin: -160px 0 26px auto;
 }
 
 .u-section-8 .u-container-layout-1 {
   padding: 0;
+}
+
+@media (max-width: 1199px) {
+  .u-section-8 .u-image-1 {
+    height: auto;
+  }
 }
 
 @media (max-width: 767px) {
@@ -753,7 +760,7 @@
     margin-top: -78px;
   }
 } .u-section-9 {
-  background-image: url("images/stroke_div-up_01-32.png");
+  background-image: url("images/stroke_div-up_01-27.png");
   min-height: 144px;
   background-position: 50% 50%;
 }
@@ -1061,7 +1068,6 @@
 
   .u-section-10 .u-repeater-1 {
     min-height: 340px;
-    grid-auto-columns: 50%;
   }
 
   .u-section-10 .u-image-1 {
@@ -1124,7 +1130,7 @@
     width: auto;
   }
 } .u-section-11 {
-  background-image: url("images/stroke_div-down_01-33.png");
+  background-image: url("images/stroke_div-down_01-26.png");
   min-height: 144px;
   background-position: 50% 50%;
 }
@@ -1171,15 +1177,15 @@
   .u-section-11 .u-sheet-1 {
     min-height: 43px;
   }
-}.u-section-12 .u-sheet-1 {
+} .u-section-12 {
   min-height: 150px;
 }
 
 .u-section-12 .u-image-1 {
-  width: 420px;
+  width: calc(((100% - 1140px) / 2) + 370px);
   min-height: 195px;
   background-image: url("images/xoxo.png");
-  margin: -116px auto 60px -88px;
+  margin: -120px auto 60px 0;
 }
 
 .u-section-12 .u-container-layout-1 {
@@ -1188,6 +1194,10 @@
 }
 
 @media (max-width: 1199px) {
+  .u-section-12 .u-image-1 {
+    width: calc(((100% - 940px) / 2) + 370px);
+  }
+
   .u-section-12 .u-container-layout-1 {
     padding-top: 0;
     padding-bottom: 0;
@@ -1202,7 +1212,7 @@
 
 @media (max-width: 767px) {
   .u-section-12 .u-image-1 {
-    width: 272px;
+    width: calc(((100% - 1140px) / 2) + 522px);
     margin-top: -56px;
   }
 }
@@ -1211,9 +1221,10 @@
   .u-section-12 .u-image-1 {
     width: 220px;
     margin-top: -46px;
+    margin-left: calc(((100% - 1140px) / 2) + 400px);
   }
 } .u-section-13 {
-  background-image: url("images/stroke_div-up_02-35.png");
+  background-image: url("images/stroke_div-up_02-25.png");
   background-position: 50% 50%;
 }
 
@@ -1878,7 +1889,7 @@
     width: 320px;
   }
 } .u-section-15 {
-  background-image: url("images/stroke_div-down_02-36.png");
+  background-image: url("images/stroke_div-down_02-30.png");
   min-height: 144px;
   background-position: 50% 50%;
 }
@@ -1952,4 +1963,19 @@
   .u-section-16 .u-image-1 {
     width: 274px;
   }
+}.sticker_sexyrat {
+	display:flex;
+	justify-content:flex-start;
+}
+.sticker_saksrat {
+	display:flex;
+	justify-content:flex-end;
+}
+.sticker_xoxo {
+	display:flex;
+	justify-content:flex-start;
+}
+.sticker_heart {
+	display:flex;
+	justify-content:flex-end;
 }
