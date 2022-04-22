@@ -222,3 +222,18 @@
     font-size: 1rem;
   }
 }
+
+.u-logo-image{
+  width:324px !important;
+  margin-top:28px;
+  margin-bottom:28px;
+}
+
+#menu{
+margin-top:-80px !important;
+}
+
+.header{
+  background-color: none !important;
+}
+
