@@ -256,13 +256,12 @@ margin-top:-100px !important;
   background-color: none !important;
 }
 
-
 #mintbutton{
   display:block;
   margin-left:auto;
   margin-right:auto;
-  width:60%;
-  padding:5px;
+  width:80%;
+  padding:10px;
   text-align: center;
   /* background-color: #23cdb3; */
 }
