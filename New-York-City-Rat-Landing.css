@@ -273,9 +273,12 @@ margin-top:-100px !important;
   text-align: center;
   color: #ffffff !important;
   font-family: 'Potta One';
+  margin:8px;
 }
 
 .mint{
-  background-color: #23cdb3;
+  /* background-color: #23cdb3; */
   padding:10px;
+  color:#23cdb3;
+  text-align: center;
 }
