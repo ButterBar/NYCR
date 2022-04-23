@@ -275,11 +275,12 @@ margin-top:-100px !important;
 
 .nft-art-gen-section button, .nft-art-gen-section select{
   display:block !important;
+  margin-botton:5px;
   margin-left:auto;
   margin-right:auto;
   background-color: #23cdb3 !important;
   border-radius: 10px !important;
-  padding:0 12px;
+  padding:5 15px;
   color:#ffffff !important;
   text-align: center;
   font-size: 1rem !important;
