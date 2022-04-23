@@ -257,25 +257,7 @@ margin-top:-100px !important;
 }
 
 #mintbutton{
-  margin-top:-5px;
-}
-
-.nft-art-gen-section{
-  display:flex;
-  justify-content: center;
-  padding:10px;
-  text-align: center;
-  /* background-color: #23cdb3 !important; */
-  color: #ffffff !important;
-  /* padding:1rem 1rem !important; */
-  /* border-radius: 10px !important; */
-}
-
-.nft-art-gen-mint-progress{
-  text-align: center;
-  color: #ffffff !important;
-  font-family: 'Potta One';
-  margin:8px;
+  /* margin-top:-5px; */
 }
 
 /* .mint{
@@ -287,15 +269,34 @@ margin-top:-100px !important;
   font-size: 1rem !important;
 } */
 
+.nft-art-gen-section{
+  flex-direction: :column !important;
+}
+
 .nft-art-gen-section button, .nft-art-gen-section select{
   display:block !important;
+  margin-left:auto;
+  margin-right:auto;
   background-color: #23cdb3 !important;
   border-radius: 10px !important;
-  padding:10px;
+  padding:5px 10px;
   color:#ffffff !important;
   text-align: center;
   font-size: 1rem !important;
   height:auto !important;
   line-height: auto !important;
   font-weight:400 !important;
+}
+
+.nft-art-gen-mint-progress{
+  text-align: center;
+  color: #ffffff !important;
+  font-family: 'Potta One';
+  margin:8px;
+}
+
+@media (max-width: 575px) {
+  .nft-art-gen-section button, .nft-art-gen-section select{
+    font-size:0.75rem !important;
+  }
 }
