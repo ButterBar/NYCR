@@ -257,11 +257,25 @@ margin-top:-100px !important;
 }
 
 #mintbutton{
-  display:block;
-  margin-left:auto;
-  margin-right:auto;
-  width:65%;
+
+}
+
+.nft-art-gen-section{
+  max-width:100px;
+  display:flex;
+  justify-content: center;
   padding:10px;
   text-align: center;
   /* background-color: #23cdb3; */
+}
+
+.nft-art-gen-mint-progress{
+  text-align: center;
+  color: #ffffff !important;
+  font-family: 'Potta One';
+}
+
+.mint{
+  background-color: #23cdb3;
+  padding:10px;
 }
