@@ -268,8 +268,8 @@ margin-top:-100px !important;
   background-color: #23cdb3 !important;
   color: #ffffff !important;
   padding:1rem 1rem !important;
-  border-radius: 10px;
-  font-size: 1rem;
+  border-radius: 10px !important;
+  font-size: 1rem !important;
 }
 
 .nft-art-gen-mint-progress{
