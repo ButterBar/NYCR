@@ -265,11 +265,10 @@ margin-top:-100px !important;
   justify-content: center;
   padding:10px;
   text-align: center;
-  background-color: #23cdb3 !important;
+  /* background-color: #23cdb3 !important; */
   color: #ffffff !important;
-  padding:1rem 1rem !important;
-  border-radius: 10px !important;
-  font-size: 1rem !important;
+  /* padding:1rem 1rem !important; */
+  /* border-radius: 10px !important; */
 }
 
 .nft-art-gen-mint-progress{
@@ -280,8 +279,26 @@ margin-top:-100px !important;
 }
 
 .mint{
-  /* background-color: #23cdb3; */
+  background-color: #23cdb3 !important;
+  border-radius: 10px !important;
   padding:10px;
-  color:#23cdb3;
+  color:#ffffff !important;
   text-align: center;
+  font-size: 1rem !important;
+}
+
+.nft-art-gen-section button{
+  background-color: #23cdb3 !important;
+  border-radius: 10px !important;
+  padding:10px;
+  color:#ffffff !important;
+  text-align: center;
+  font-size: 1rem !important;
+}
+
+.nft-art-gen-section select{
+  display:block !important;
+  background-color: #23cdb3 !important;
+  color:#ffffff !important;
+  font-size: 1rem !important;
 }
