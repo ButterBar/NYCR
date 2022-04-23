@@ -257,7 +257,7 @@ margin-top:-100px !important;
 }
 
 #mintbutton{
-  /* margin-top:-5px; */
+  margin-top:-5px;
 }
 
 /* .mint{
@@ -279,7 +279,7 @@ margin-top:-100px !important;
   margin-right:auto;
   background-color: #23cdb3 !important;
   border-radius: 10px !important;
-  padding:4px 12px;
+  padding:0 12px;
   color:#ffffff !important;
   text-align: center;
   font-size: 1rem !important;
