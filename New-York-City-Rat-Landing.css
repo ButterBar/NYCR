@@ -279,7 +279,7 @@ margin-top:-100px !important;
   margin-right:auto;
   background-color: #23cdb3 !important;
   border-radius: 10px !important;
-  padding:5px 12px;
+  padding:4px 12px;
   color:#ffffff !important;
   text-align: center;
   font-size: 1rem !important;
@@ -295,11 +295,6 @@ margin-top:-100px !important;
   margin:10px;
 }
 
-@media (max-width: 575px) {
-  .nft-art-gen-section button, .nft-art-gen-section select{
-    font-size:0.7rem !important;
-  }
-}
 
 @media (max-width: 991px) {
   .nft-art-gen-section button, .nft-art-gen-section select{
