@@ -257,7 +257,9 @@ margin-top:-100px !important;
 }
 
 #mintbutton{
-
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
 }
 
 .nft-art-gen-section{
